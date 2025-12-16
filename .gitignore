@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook - ignore large notebooks but allow small example ones
+.ipynb_checkpoints
+# *.ipynb  # Commented out to allow example notebooks
+
+# Model checkpoints and weights
+ckpt/
+ckpts/
+checkpoint/
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Data - Allow data processing scripts, ignore large datasets
+datasets/
+data/*.parquet
+data/*.arrow
+data/processed/
+data/raw/
+# Allow essential data files
+!data/*.py
+!data/*.sh
+!data/utils/
+!data/README.md
+# But still ignore large data files
+*.csv
+*.tsv
+
+# Results
+results/
+outputs/
+output/
+logs/
+wandb/
+*.log
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+
+# Large files
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.bz2
+*.7z
+*.whl
+
+# Images (except assets)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+!assets/*.png
+!assets/*.jpg
+!assets/*.pdf
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# DeepSpeed
+.deepspeed*/
+
+# Symlinks
+opencompass
+transformers
+
+# Local environment
+.env
+.env.local

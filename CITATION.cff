@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Shao"
+    given-names: "Jie"
+    email: "shaoj@lamda.nju.edu.cn"
+    affiliation: "National Key Laboratory for Novel Software Technology, Nanjing University; School of Artificial Intelligence, Nanjing University"
+  - family-names: "Wu"
+    given-names: "Jianxin"
+    email: "wujx2001@nju.edu.cn"
+    affiliation: "National Key Laboratory for Novel Software Technology, Nanjing University; School of Artificial Intelligence, Nanjing University"
+title: "Who Reasons in the Large Language Models?"
+version: 1.0.0
+date-released: 2025-12-16
+url: "https://github.com/YOUR_USERNAME/stethoscope-for-networks"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Shao"
+      given-names: "Jie"
+    - family-names: "Wu"
+      given-names: "Jianxin"
+  title: "Who Reasons in the Large Language Models?"
+  conference:
+    name: "39th Conference on Neural Information Processing Systems"
+  year: 2025
+  collection-title: "Advances in Neural Information Processing Systems (NeurIPS)"
+  volume: 38
